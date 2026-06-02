@@ -20,6 +20,16 @@ const api = axios.create({
   withCredentials: true,
 });
 
+// All API routes are served under the versioned `/api/v1` prefix (issue #204).
+// Rewrite `/api/*` request paths to `/api/v1/*` from a single place so every
+// helper below stays on the unversioned path string.
+api.interceptors.request.use((config) => {
+  if (config.url && config.url.startsWith("/api/") && !config.url.startsWith("/api/v1/")) {
+    config.url = config.url.replace(/^\/api\//, "/api/v1/");
+  }
+  return config;
+});
+
 let csrfToken: string | null = null;
 
 async function refreshCsrfToken() {
