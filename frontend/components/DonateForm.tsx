@@ -305,7 +305,7 @@ export default function DonateForm({ project, publicKey, initialAmount, initialM
             <p>USDC: <span className="font-medium">{usdcBalance === null ? "No trustline" : usdcBalance}</span></p>
             {usdcBalance === null && (
               <div className="mt-2 text-sm text-amber-600">
-                You don't have a USDC trustline on this account. Add a trustline in your wallet or follow these instructions to accept USDC: <a href="https://developers.stellar.org/docs/learn/fundamentals/stellar-data-structures/assets/" target="_blank" rel="noopener noreferrer" className="underline">Add trustline</a>
+                You don&apos;t have a USDC trustline on this account. Add a trustline in your wallet or follow these instructions to accept USDC: <a href="https://developers.stellar.org/docs/learn/fundamentals/stellar-data-structures/assets/" target="_blank" rel="noopener noreferrer" className="underline">Add trustline</a>
               </div>
             )}
           </div>

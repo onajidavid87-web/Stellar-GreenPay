@@ -932,7 +932,7 @@ export default function ProjectDetail({
                           ℹ️
                         </button>
                         <span className="tooltip-text" role="tooltip">
-                          Estimated CO₂ offset based on this project's declared
+                          Estimated CO₂ offset based on this project&apos;s declared
                           impact rate per XLM donated. Actual results may vary.
                         </span>
                       </span>
@@ -1226,6 +1226,7 @@ export default function ProjectDetail({
                 <input
                   type="datetime-local"
                   required
+                  aria-label="Campaign deadline"
                   value={campaignForm.deadline}
                   onChange={(e) =>
                     setCampaignForm((prev) => ({
@@ -1547,7 +1548,7 @@ export default function ProjectDetail({
               Impact Report 📊
             </p>
             <p className="text-xs text-[#5a7a5a] mb-3 font-body">
-              Download a print-friendly summary of this project's progress and
+              Download a print-friendly summary of this project&apos;s progress and
               impact.
             </p>
             <button

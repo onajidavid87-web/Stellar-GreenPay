@@ -118,7 +118,7 @@ function DonationRow({ donation }: { donation: Donation }) {
         </span>
         {donation.message && (
           <p className="text-xs text-[#5a7a5a] italic truncate max-w-[200px] sm:max-w-sm">
-            "{donation.message}"
+            &quot;{donation.message}&quot;
           </p>
         )}
       </div>
@@ -147,7 +147,7 @@ function ProfileNotFound({ publicKey }: { publicKey: string }) {
         </h1>
         <p className="text-[#5a7a5a] font-body max-w-sm mx-auto text-sm leading-relaxed">
           The donor at{" "}
-          <span className="address-tag">{shortenKey(publicKey)}</span> hasn't
+          <span className="address-tag">{shortenKey(publicKey)}</span> hasn&apos;t
           created a public profile yet.
         </p>
       </div>

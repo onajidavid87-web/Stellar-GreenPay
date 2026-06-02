@@ -236,7 +236,7 @@ export default function Home({ publicKey, onConnect }: HomeProps) {
             <h2 className="font-display text-3xl sm:text-4xl font-bold text-forest-900 mb-3">
               Why GreenPay?
             </h2>
-            <p className="text-[#5a7a5a] max-w-xl mx-auto font-body">
+            <p className="text-[#3d5a3d] max-w-xl mx-auto font-body">
               Blockchain-powered climate finance that actually reaches the
               projects that need it.
             </p>
@@ -265,7 +265,7 @@ export default function Home({ publicKey, onConnect }: HomeProps) {
             <h2 className="font-display text-3xl font-bold text-forest-900 mb-3">
               Explore by Category
             </h2>
-            <p className="text-[#5a7a5a] max-w-xl mx-auto font-body mb-8">
+            <p className="text-[#3d5a3d] max-w-xl mx-auto font-body mb-8">
               Browse active climate projects across different impact areas
             </p>
           </div>
@@ -322,7 +322,7 @@ export default function Home({ publicKey, onConnect }: HomeProps) {
 
         {/* ── Footer ──────────────────────────────────────────────────── */}
         <div className="text-center pb-12 border-t border-forest-100 pt-8">
-          <p className="text-[#8aaa8a] text-sm font-body">
+          <p className="text-[#4a6a4a] text-sm font-body">
             Open source · MIT License ·{" "}
             <a
               href="https://github.com/your-org/stellar-greenpay"
@@ -445,7 +445,7 @@ function FeaturedProjectCard({ project }: { project: ClimateProject }) {
         <h2 className="font-display text-3xl font-bold text-forest-900 mb-2">
           ⭐ Featured Project
         </h2>
-        <p className="text-[#5a7a5a] font-body">
+        <p className="text-[#3d5a3d] font-body">
           The project making the biggest impact right now
         </p>
       </div>
@@ -456,7 +456,7 @@ function FeaturedProjectCard({ project }: { project: ClimateProject }) {
               <span className="text-xs font-semibold bg-amber-100 text-amber-800 px-3 py-1 rounded-full border border-amber-200 font-body">
                 🏆 Most Donors
               </span>
-              <span className="text-xs text-[#8aaa8a] bg-forest-50 px-2.5 py-1 rounded-full border border-forest-100 font-body">
+              <span className="text-xs text-[#4a6a4a] bg-forest-50 px-2.5 py-1 rounded-full border border-forest-100 font-body">
                 {project.category}
               </span>
             </div>
@@ -550,7 +550,7 @@ function StatItem({ stat }: { stat: any }) {
         {count.toLocaleString()}
         {stat.suffix}
       </div>
-      <div className="text-[#5a7a5a] text-sm font-body uppercase tracking-widest font-bold opacity-60">
+      <div className="text-[#4a6a4a] text-sm font-body uppercase tracking-widest font-bold">
         {stat.label}
       </div>
     </div>

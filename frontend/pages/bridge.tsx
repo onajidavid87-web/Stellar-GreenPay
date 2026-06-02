@@ -146,7 +146,7 @@ export default function BridgePage() {
               Bridge USDC to Stellar
             </h1>
             <p className="text-[#5a7a5a] font-body">
-              Transfer your Ethereum-based USDC to Stellar using Circle's Cross-Chain Transfer Protocol (CCTP)
+              Transfer your Ethereum-based USDC to Stellar using Circle&apos;s Cross-Chain Transfer Protocol (CCTP)
             </p>
           </div>
 
@@ -336,7 +336,7 @@ export default function BridgePage() {
           <div className="mt-8 p-6 bg-blue-50 border border-blue-200 rounded-xl">
             <h3 className="font-display font-semibold text-blue-900 mb-2">ℹ️ About Circle CCTP</h3>
             <p className="text-sm text-blue-800 leading-relaxed">
-              Circle's Cross-Chain Transfer Protocol (CCTP) is a permissionless on-chain messaging protocol
+              Circle&apos;s Cross-Chain Transfer Protocol (CCTP) is a permissionless on-chain messaging protocol
               that allows USDC to move between blockchains without wrapping or liquidity pools. Your USDC
               is burned on the source chain and minted on the destination chain, maintaining a 1:1 peg.
               Learn more at{" "}
@@ -346,7 +346,7 @@ export default function BridgePage() {
                 rel="noopener noreferrer"
                 className="underline font-semibold"
               >
-                Circle's documentation
+                Circle&apos;s documentation
               </a>
               .
             </p>

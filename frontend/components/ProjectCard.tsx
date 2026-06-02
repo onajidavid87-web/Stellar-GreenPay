@@ -115,7 +115,7 @@ export default function ProjectCard({ project }: { project: ClimateProject }) {
                     ℹ️
                   </button>
                   <span className="tooltip-text" role="tooltip">
-                    Estimated CO₂ offset based on this project's declared impact
+                    Estimated CO₂ offset based on this project&apos;s declared impact
                     rate per XLM donated. Actual results may vary.
                   </span>
                 </span>

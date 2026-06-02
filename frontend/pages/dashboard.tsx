@@ -364,7 +364,7 @@ export default function Dashboard({ publicKey, onConnect }: DashboardProps) {
             {streak.current === 0 && donations.length > 0 && (
               <div className="mt-4 pt-4 border-t border-white/10 text-center">
                 <p className="text-xs text-forest-300 font-body italic">
-                  Streak broken? Don't worry, every donation counts. Start fresh this month!
+                  Streak broken? Don&apos;t worry, every donation counts. Start fresh this month!
                 </p>
               </div>
             )}
@@ -415,7 +415,7 @@ export default function Dashboard({ publicKey, onConnect }: DashboardProps) {
                     <div className="w-10 h-10 rounded-full bg-forest-100 flex items-center justify-center text-lg flex-shrink-0">🌱</div>
                     <div className="flex-1 min-w-0">
                       <p className="text-sm font-semibold text-forest-900 font-body">Project donation</p>
-                      {d.message && <p className="text-xs text-[#5a7a5a] italic font-body truncate">"{d.message}"</p>}
+                      {d.message && <p className="text-xs text-[#5a7a5a] italic font-body truncate">&quot;{d.message}&quot;</p>}
                       <p className="text-[10px] text-[#8aaa8a] font-body uppercase tracking-wider font-bold opacity-70">{timeAgo(d.createdAt)}</p>
                     </div>
                     <div className="text-right flex-shrink-0">
@@ -437,7 +437,7 @@ export default function Dashboard({ publicKey, onConnect }: DashboardProps) {
             <div className="card text-center py-20">
               <p className="text-5xl mb-4">❤️</p>
               <h2 className="text-xl font-display font-bold text-forest-900 mb-2">No saved projects yet</h2>
-              <p className="text-[#5a7a5a] mb-8 font-body">Save projects you're interested in to track their progress.</p>
+              <p className="text-[#5a7a5a] mb-8 font-body">Save projects you&apos;re interested in to track their progress.</p>
               <Link href="/projects" className="btn-primary text-sm">Explore Projects</Link>
             </div>
           ) : (
